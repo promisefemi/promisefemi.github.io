@@ -1,0 +1,182 @@
+@media (max-width: 720px) {
+    body {
+        background: #020202 !important;
+    }
+
+    /*NAVIGATIONS*/
+    .nav-pane-cover {
+        width: 100% !important;
+        height: unset !important;
+        z-index: 999;
+    }
+
+    .nav-pane-container {
+        width: 100%;
+        height: unset !important;
+    }
+
+    .nav-cover {
+        display: block !important;
+        width: 100% !important;
+        position: relative !important;
+    }
+
+    .minilogo {
+        display: none !important;
+    }
+
+    .logo {
+        width: 60% !important;
+        padding: 0 !important;
+    }
+
+    .fulllogo {
+        display: flex !important;
+        width: 100% !important;
+        padding: 15px !important;
+    }
+
+    .fulllogo img {
+        width: 100%;
+        height: 70px !important;
+    }
+
+    .navigation-bar {
+        display: flex !important;
+    }
+
+    .navigation-bar label {
+        color: white;
+        font-size: 30px;
+    }
+
+    .navigation {
+        display: none;
+    }
+
+    .navigation {
+        width: 100% !important;
+        display: block !important;
+        background: rgb(4, 4, 4) !important;
+        padding: 8px 0px !important;
+    }
+
+    .navigation ul {
+        flex-direction: row !important;
+        justify-content: flex-start !important;
+        align-items: flex-start !important;
+    }
+
+    .navigation-list {
+        margin: 0 !important;
+    }
+
+    .navigation-list a {
+        margin: 0 !important;
+
+    }
+
+    /*    PAGE*/
+    .page {
+        width: 100% !important;
+        margin: 185px 0 0 0 !important;
+        padding: 15px 26px 0 20px !important;
+    }
+
+    /*    HOME*/
+    .home {
+        overflow-y: scroll !important;
+        overflow-x: hidden !important;
+    }
+
+    .intro {
+        bottom: 10% !important
+    }
+
+    /*    ABOUT*/
+    .about {
+        overflow-y: scroll !important;
+        overflow-x: hidden !important;
+    }
+
+    .me {
+        position: relative !important;
+        bottom: unset !important;
+        left: unset !important;
+        width: 96% !important;
+    }
+
+    .philosophy {
+        position: relative !important;
+        left: unset !important;
+        bottom: unset !important;
+        width: 96% !important;
+    }
+
+    /*    CONTACT*/
+    .contact {
+        overflow-y: scroll !important;
+        overflow-x: hidden !important;
+    }
+
+    .email-me {
+        display: block !important;
+        width: fit-content !important;
+    }
+
+    .message-works {
+        margin-left: 0 !important;
+    }
+
+    .entry-section-big p {
+        margin-bottom: 0px !important;
+    }
+
+    .submit {
+        margin: 0 !important;
+        display: block !important;
+        width: 100% !important;
+    }
+
+    .row {
+        flex-direction: column !important;
+        justify-content: unset !important;
+        align-items: flex-start !important;
+    }
+
+    .col-6 {
+        width: 100% !important;
+    }
+
+    .contact-form {
+        padding: 0 0 20px 0 !important;
+
+    }
+
+    .talk-heading {
+        margin-top: 0px !important;
+    }
+
+    /* SKILLS RESPONSIVE */
+    .skills {
+        overflow: scroll !important;
+    }
+
+    .process {
+        width: 100% !important;
+    }
+
+    .skill-container {
+        padding: 0 !important;
+    }
+
+    .skills .row {
+        /*flex-direction: column-reverse !important;*/
+        justify-content: unset !important;
+        align-items: flex-start !important;
+    }
+
+    .skills .row .col-6:first-child {
+        margin-bottom: 20px;
+    }
+}

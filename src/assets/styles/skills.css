@@ -1,0 +1,103 @@
+.skills {
+    position: relative;
+    overflow: hidden;
+    padding: 40px;
+}
+
+.process {
+    width: 73%;
+}
+
+.process .heading h3 {
+    font-size: 27px;
+}
+
+.top-heading {
+    font-size: 18px;
+    color: #eeeeee;
+    font-family: ttcommonsbold, "sans-serif";
+    margin: 0;
+    line-height: 0.3;
+}
+
+.height-100 {
+    height: 100%;
+}
+
+.skill-container {
+    width: 100%;
+    padding: 20px;
+}
+
+.place-flex-middle {
+    justify-content: center;
+    align-items: center;
+}
+
+.skill-body {
+    width: 100%;
+    margin-bottom: 30px
+}
+
+.sub-heading {
+    font-size: 15px;
+    color: #ebebeb;
+    font-family: ttcommonsmedium, "san-serif";
+    margin-bottom: 2px;
+}
+
+.skill-holder {
+    margin-bottom: 10px;
+}
+
+.skill {
+    width: 100%;
+    /*border: 1px solid #636363;*/
+    border-radius: 3px;
+    height: 20px;
+}
+
+.skill-inner-percentage {
+    margin: auto;
+    font-size: 14px;
+    font-family: neosansmediumitalic, 'sans-serif';
+    color: #2b1919;
+    width: fit-content;
+}
+
+.skill-inner {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 4px;
+}
+
+.skill-width-90 {
+    width: 90%;
+}
+
+.skill-width-40 {
+    width: 40%;
+}
+
+.skill-width-85 {
+    width: 85%;
+}
+
+.skill-width-70 {
+    width: 70%;
+}
+
+.skill-width-80 {
+    width: 80%;
+}
+
+.gradient-straight {
+    background-image: linear-gradient(to left, #fec849, #f78d3a, #ea4033);
+}
+
+.gradient-reverse {
+    background-image: linear-gradient(to left, #ea4033, #f78d3a);
+}

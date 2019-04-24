@@ -1,0 +1,70 @@
+.contact {
+    position: relative;
+    overflow: hidden;
+    padding: 40px;
+}
+
+.email-me {
+    padding: 20px;
+    font-family: neosansmediumitalic, 'sans-serif';
+    color: #fff;
+    text-decoration: none;
+    background: #ea4033;
+}
+
+.contact-form {
+    padding: 10px;
+}
+
+.message-works {
+    margin: 20px;
+    color: white;
+    font-size: 30px;
+    font-family: ttcommonsbold, 'sans-serif';
+}
+
+.input-container {
+    width: 100%;
+    margin: 0 0 10px 0;
+}
+
+.input-container input {
+    width: 100%;
+    height: 60px;
+    padding: 10px;
+    border: 2px solid rgb(6, 6, 6);
+    color: rgb(6, 6, 6);
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: ttcommonsregular, 'sans-serif';
+}
+
+.input-container textarea {
+    width: 100%;
+    height: 160px;
+    padding: 10px;
+    border: 2px solid rgb(6, 6, 6);
+    color: rgb(6, 6, 6);
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: ttcommonsregular, 'sans-serif';
+}
+
+.submit {
+    padding: 15px 30px;
+    font-family: neosansmediumitalic, 'sans-serif';
+    color: #fff;
+    text-decoration: none;
+    background: #ea4033;
+    border: 0;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    display: flex;
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.talk-heading {
+    margin-top: -120px
+}

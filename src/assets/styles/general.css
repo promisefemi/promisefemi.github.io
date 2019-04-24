@@ -1,0 +1,262 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.router-link-active {
+    color: #ea4033 !important;
+}
+
+/*EXTERNAL FONTS*/
+@font-face {
+    font-family: flott;
+    src: url("../fonts/FiraFlott.ttf");
+}
+
+/*BRANDON GROTESQUE*/
+@font-face {
+    font-family: brandonbold;
+    src: url("../fonts/brandon/brandon-grotesque-black.otf");
+}
+
+@font-face {
+    font-family: brandonlight;
+    src: url("../fonts/brandon/brandon-grotesque-light.otf");
+}
+
+/*BRANDON GROTESQUE END*/
+
+/*TT COMMONS FONT*/
+@font-face {
+    font-family: ttcommonsbold;
+    src: url("../fonts/TT.Commons/TTCommons-Bold.ttf");
+}
+
+@font-face {
+    font-family: ttcommonsdemibold;
+    src: url("../fonts/TT.Commons/TTCommons-DemiBold.ttf");
+}
+
+@font-face {
+    font-family: ttcommonsextralight;
+    src: url("../fonts/TT.Commons/TTCommons-ExtraLight.ttf");
+}
+
+@font-face {
+    font-family: ttcommonslight;
+    src: url("../fonts/TT.Commons/TTCommons-Light.ttf");
+}
+
+@font-face {
+    font-family: ttcommonsmedium;
+    src: url("../fonts/TT.Commons/TTCommons-Medium.ttf");
+}
+
+@font-face {
+    font-family: ttcommonsregular;
+    src: url("../fonts/TT.Commons/TTCommons-Regular.ttf");
+}
+
+/*TT COMMONS FONT END*/
+
+/*NEOSANS FONT*/
+@font-face {
+    font-family: neosansblack;
+    src: url("../fonts/neosans/neoSansblack.otf");
+}
+
+@font-face {
+    font-family: neosanslightitalic;
+    src: url("../fonts/neosans/neosanslightItalic.otf");
+}
+
+@font-face {
+    font-family: neosansmediumitalic;
+    src: url("../fonts/neosans/neosansmediumitalic.otf");
+}
+
+/*NEOSANS FONT END*/
+
+::-webkit-scrollbar {
+    background: transparent !important;
+}
+
+::-webkit-scrollbar-thumb {
+    background: transparent !important;
+}
+
+.underline {
+    display: block;
+    width: 90px;
+    height: 10px;
+    margin-bottom: 20px;
+    background: #ea4033;
+}
+
+.underline2 {
+    display: block;
+    width: 60px;
+    height: 8px;
+    margin-bottom: 20px;
+    background: #ea4033;
+}
+
+.bg-yellow {
+    background: #fec849;
+}
+
+.bg-orange {
+    background: #f78d3a !important;
+}
+
+.bg-red {
+    background: #ea4033 !important;
+}
+
+.color-yellow {
+    color: #fec849;
+}
+
+.color-orange {
+    color: #f78d3a;
+}
+
+.color-red {
+    color: #ea4033;
+}
+
+.heading {
+    color: #fff;
+}
+
+.heading h3 {
+    font-size: 45px;
+    font-family: ttcommonsbold, 'sans-serif';
+    /*font-family: neosansmediumitalic, 'sans-serif';*/
+    margin-bottom: 5px;
+}
+
+.entry-section {
+    padding: 0 10px 0 0;
+}
+
+.entry-section p {
+    font-size: 18px;
+    color: white;
+    font-family: ttcommonsregular, 'sans-serif';
+}
+
+.entry-section-big {
+    padding: 0 18px 0 0;
+}
+
+.entry-section-big p {
+    font-size: 20px;
+    color: white;
+    font-family: ttcommonsregular, 'sans-serif';
+}
+
+.overlay-transparent {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+}
+
+/*ROW*/
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+/*SOME OTHER CUSTOM STUFF*/
+.typed-cursor {
+    color: #fff;
+    padding-left: 2px;
+    font-family: ttcommonsbold, 'sans-serif';
+}
+
+/*SOCIAL*/
+
+.socialx {
+    /*position : absolute;*/
+    /*right: 10px;*/
+    top: 15px;
+    z-index: 98;
+    margin-top: 40px;
+}
+
+.socialx ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.socialx ul li {
+    list-style: none;
+    margin: 0px 15px;
+}
+
+.socialx ul li:first-child {
+    margin-left: 0;
+}
+
+.socialx ul li a {
+    color: #bdbdbd;
+    font-size: 22px;
+    font-weight: bold;
+    transition: all 0.2s
+
+}
+
+.social {
+    position: absolute;
+    right: 10px;
+    top: 15px;
+    z-index: 98;
+}
+
+.social ul {
+    display: flex;
+    list-style: none;
+}
+
+.social ul li {
+    list-style: none;
+    margin: 0px 15px;
+}
+
+.social ul li a {
+    color: #bdbdbd;
+    font-weight: bold;
+    transition: all 0.2s
+}
+
+
+.socialx ul li:hover a {
+    color: #fff
+}
+
+.social ul li:hover a {
+    color: #fff
+}
+.img-bg{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    opacity: 0.009;
+}

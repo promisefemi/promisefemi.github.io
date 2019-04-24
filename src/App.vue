@@ -1,28 +1,54 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+    <div id="app">
+        <fullpage v-if="showFull"/>
+        <left-pane></left-pane>
+        <router-view class="page"></router-view>
+    </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 
-export default {
-  name: 'app',
-  components: {
-    HelloWorld
-  }
-}
+    import LeftPane from "./components/LeftPane";
+    import Fullpage from "./components/Fullpage";
+let parent;
+    export default {
+        name: 'app',
+        components: {
+            Fullpage,
+            LeftPane
+        },
+        data:()=>({
+           showFull: false
+        }),
+        watch: {
+            "$route": (to, from) => {
+                parent.showFull = true;
+               setTimeout(function () {
+                   parent.showFull = false
+               }, 900)
+                // console.log(to, "ROUTING TO");
+                // console.log(from, "ROUTING FROM");
+            }
+        },
+        created() {
+            parent =  this;
+        }
+    }
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+    #app {
+        width: 100%;
+        height: 100vh;
+        background-color: #020202;
+        display: flex;
+    }
+
+    .page {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        position: fixed;
+    }
 </style>

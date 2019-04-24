@@ -1,0 +1,42 @@
+.about{
+    position: relative;
+    overflow: hidden;
+
+}
+.me {
+    position: absolute;
+    left: 20px;
+    bottom: 37%;
+    width: 55%;
+    z-index: 5;
+}
+
+.logo-position-about {
+    position: fixed;
+    bottom: 2%;
+    right: 30px;
+    width: 43%;
+    height: 80%;
+}
+#slogan-bg{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#slogan-bg h3{
+    margin: 0;
+    /*color: rgb(4,4,4);*/
+    color: #010101;
+    font-size: 200px;
+    font-family: ttcommonsbold, 'sans-serif';
+    line-height: 0.8;
+}
+
+.philosophy{
+    position: absolute;
+    left: 20px;
+    bottom: 10%;
+    width: 55%;
+    z-index: 5;
+}

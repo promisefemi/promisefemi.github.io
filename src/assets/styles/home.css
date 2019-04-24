@@ -1,0 +1,60 @@
+.home{
+    position: relative;
+    overflow: hidden;
+}
+
+.intro{
+    position: absolute;
+    /*bottom: 10%;*/
+    bottom: 20%;
+    left: 30px;
+}
+
+.intro #hello{
+    font-size: 40px;
+    color: #eeeeee;
+    font-family: neosansmediumitalic, 'sans-serif';
+    margin-bottom: 10px;
+    transform: translateY(100px);
+}
+
+.intro #name{
+    margin: 0;
+    font-size: 90px;
+    /*font-family: neosansblack, 'sans-serif';*/
+    font-family: ttcommonsbold, 'sans-serif';
+    letter-spacing: -5px;
+    line-height: 1;
+    color: #f78d3a;
+    transform: translateY(100px);
+    transition: all 0.2s;
+}
+.intro #slogan{
+    margin: 1px 0 0;
+    font-family: ttcommonsregular, 'sans-serif';
+    font-size: 25px;
+    color: white;
+}
+.email-me {
+    padding: 20px;
+    display: block;
+    width: fit-content;
+    font-family: neosansmediumitalic, 'sans-serif';
+    margin-top:10px;
+    color: #fff;
+    text-decoration: none;
+    background: #ea4033;
+}
+
+.my-image{
+    position: absolute;
+    bottom:-50px;
+    right: -30px;
+    width: 47%;
+}
+.my-image img{
+    width: 100%;
+    height: auto;
+}
+
+/*SOCIAL*/
