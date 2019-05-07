@@ -10,6 +10,8 @@
   "dependencies": {
     "animejs": "^3.0.1",
     "core-js": "^2.6.5",
+    "emailjs-com": "^2.3.2",
+    "mo-js": "^0.288.2",
     "vue": "^2.6.6",
     "vue-router": "^3.0.1"
   },

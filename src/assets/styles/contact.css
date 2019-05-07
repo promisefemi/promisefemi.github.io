@@ -68,3 +68,28 @@
 .talk-heading {
     margin-top: -120px
 }
+
+.contact-error{
+    position: absolute;
+    right: 0;
+    top: 30px;
+    background-color: #cc1e09;
+    padding: 30px 15px;
+    color: #fff;
+    min-width: 80px;
+    opacity: 0;
+    z-index: 99999999999999;
+    font-family: ttcommonsbold, 'sans-serif';
+}
+.contact-success{
+    position: absolute;
+    right: 0;
+    top: 30px;
+    background-color: #0ba840;
+    padding: 30px 15px;
+    color: #fff;
+    opacity: 0;
+    min-width: 80px;
+    z-index: 99999999999999;
+    font-family: ttcommonsbold, 'sans-serif';
+}
