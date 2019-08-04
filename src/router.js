@@ -4,6 +4,7 @@ import Home from "./components/Home";
 import About from "./components/About";
 import Contacts from "./components/Contacts";
 import Skills from "./components/Skills";
+import Privacy from "./components/Privacy";
 
 Vue.use(Router);
 
@@ -23,6 +24,10 @@ const router = new Router({
             path: "/contact",
             component: Contacts,
             name: "contact"
+        },   {
+            path: "/privacy",
+            component: Privacy,
+            name: "privacy"
         }, {
             path: "/skills",
             component: Skills,

@@ -1,0 +1,21 @@
+.privacy{
+    position: relative;
+    overflow: scroll;
+    padding: 40px;
+    color: white;
+    font-family: ttcommonsregular, 'sans-serif' !important;
+}
+
+.privacy h1{
+    font-family: brandonbold, "sans-serif" !important;
+}
+
+.privacy p{
+    margin-bottom: 5px;
+}
+
+.privacy h1{
+    margin-bottom: 8px;
+}.privacy h2{
+    margin-bottom: 7px;
+}
